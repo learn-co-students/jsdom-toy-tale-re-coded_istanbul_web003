@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (addToy) {
       toyFormContainer.style.display = "block";
       submitNewToy();
-
+      
       
     } else {
       toyFormContainer.style.display = "none";
@@ -28,7 +28,7 @@ function fetchToys(){
   .then(function(json){
     console.log(json);
     organizeToys(json);
-
+    
   })
   .catch(function(error){
     console.log(error.message);
@@ -71,6 +71,44 @@ function organizeToys(toys){
   
   });
 }
+function updateToys(toy){
+  const toyCollection = document.querySelector("#toy-collection");
+
+ 
+  
+    const card = document.createElement("div");
+    card.className = "card";
+  
+    const h2 = document.createElement("h2");
+  
+    const img = document.createElement("img");
+    img.className = "toy-avatar";
+  
+    const p = document.createElement("p");
+  
+    const button = document.createElement("button");
+    button.className = "like-btn";
+  
+    
+    card.appendChild(h2);
+    card.appendChild(img);
+    card.appendChild(p);
+    card.appendChild(button);
+    toyCollection.appendChild(card);
+  
+    h2.innerText = toy.name;
+    img.setAttribute("src", toy.image);
+    p.innerText = `${toy.likes} Likes `;
+
+    button.addEventListener("click", function(e){
+      toy.likes++
+      p.innerText = `${toy.likes} Likes `
+      updateLikes(toy.likes, toy.id);
+    });
+  
+  
+
+}
 
 function sendToys(toyName, toyImg){
   let toyData = {
@@ -86,16 +124,24 @@ function sendToys(toyName, toyImg){
     },
     body: JSON.stringify(toyData)
   };
-  fetch("http://localhost:3000/toys", configObj);
+  fetch("http://localhost:3000/toys", configObj)
+  .then(function(response){
+    return response.json();
+
+  })
+  .then(function(object){
+    console.log(object);
+    updateToys(object);
+  })
+
 }
 
 function submitNewToy(){
 const inputs = document.querySelectorAll(".input-text");
 const submit = document.querySelector(".submit");
 submit.addEventListener("click", function(e){
-  e.preventDefault();
+  e.preventDefault(); 
   sendToys(inputs[0].value, inputs[1].value);
-  //location.reload(); ask about this ?? it only adds one time
 })
 }
 

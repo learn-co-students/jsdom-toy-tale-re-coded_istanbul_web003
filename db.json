@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "likes": 10
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 9
+      "likes": 10
     },
     {
       "id": 3,
@@ -57,8 +57,14 @@
     {
       "name": "Plushy",
       "image": "https://akns-images.eonline.com/eol_images/Entire_Site/20181013/rs_600x600-181113053324-600.toy-story-4.111318.jpg?fit=around|1080:1080&output-quality=90&crop=1080:1080;center,top",
-      "likes": 1,
+      "likes": 5,
       "id": 10
+    },
+    {
+      "name": "Bertaç Severcan",
+      "image": "https://vignette.wikia.nocookie.net/p__/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20161023024601&path-prefix=protagonist",
+      "likes": 4,
+      "id": 11
     }
   ]
 }
