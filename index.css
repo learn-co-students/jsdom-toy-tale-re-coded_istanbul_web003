@@ -19,6 +19,9 @@ body {
 
 #toy-collection {
   margin: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .card {
