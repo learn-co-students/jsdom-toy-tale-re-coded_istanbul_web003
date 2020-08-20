@@ -4,19 +4,19 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 8
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 23
     },
     {
       "id": 3,
       "name": "Mr. Potato Head",
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 4,
@@ -28,7 +28,7 @@
       "id": 5,
       "name": "Rex",
       "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "likes": 3
     },
     {
       "id": 6,
@@ -47,6 +47,120 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 9
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 10
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 11
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 12
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 13
+    },
+    {
+      "name": "ankara",
+      "image": "ankara",
+      "likes": "0",
+      "id": 14
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 15
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 16
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": "0",
+      "id": 17
+    },
+    {
+      "name": "ankara",
+      "image": "ankara",
+      "likes": "0",
+      "id": 18
+    },
+    {
+      "name": "ankara",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjokomisiada.pl%2Fproduct-eng-14475-Baby-doll-POLE-HORSE-accessories-ZA2927.html&psig=AOvVaw0NZ_bensvpDOMuWTDLYSmT&ust=1596384368372000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNibw62x-uoCFQAAAAAdAAAAABAD",
+      "likes": "0",
+      "id": 19
+    },
+    {
+      "name": "ankara",
+      "image": "https://images.app.goo.gl/p77Gb4oUwHBtpez86",
+      "likes": "0",
+      "id": 20
+    },
+    {
+      "name": "ankara",
+      "image": "https://images.app.goo.gl/p77Gb4oUwHBtpez86",
+      "likes": "0",
+      "id": 21
+    },
+    {
+      "name": "lll",
+      "image": "https://images.app.goo.gl/p77Gb4oUwHBtpez86",
+      "likes": "0",
+      "id": 22
+    },
+    {
+      "name": "hello",
+      "image": "https://images.app.goo.gl/p77Gb4oUwHBtpez86",
+      "likes": 0,
+      "id": 23
+    },
+    {
+      "name": " fad",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 3,
+      "id": 24
+    },
+    {
+      "name": " fad",
+      "image": "https://images.app.goo.gl/p77Gb4oUwHBtpez86",
+      "likes": 1,
+      "id": 25
+    },
+    {
+      "name": "ankara",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 2,
+      "id": 26
+    },
+    {
+      "name": "ankara",
+      "image": "https://images.app.goo.gl/p77Gb4oUwHBtpez86",
+      "likes": 1,
+      "id": 27
     }
   ]
 }
