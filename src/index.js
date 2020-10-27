@@ -1,4 +1,8 @@
 let addToy = false;
+let addBtn = document.querySelector("#new-toy-btn");
+let toyForm = document.querySelector(".container");
+let toyCard = document.getElementById("toy-collection");
+let newToy = document.getElementsByClassName("add-toy-form")[0];
 
 document.addEventListener("DOMContentLoaded", () => {
   const addBtn = document.querySelector("#new-toy-btn");
@@ -12,4 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
       toyFormContainer.style.display = "none";
     }
   });
+});
+
+addBtn.addEventListener("click", () => {
+  // hide & seek with the form
+  addToy = !addToy;
+  if (addToy) {
+    toyForm.style.display = "block";
+  } else {
+    toyForm.style.display = "none";
+  }
 });
